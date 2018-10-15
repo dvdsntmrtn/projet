@@ -8,7 +8,7 @@ from sklearn import linear_model
 #--------------------------------------------------------------------------------------------------
 class EBM(object):
 
-    def __init__(self, F=7.5, lbda=1.25, c=9.844, c_0=133.325, gam=0.70, epsi=1.0, xCO2=4):
+    def __init__(self, F=7.65, lbda=1.25, c=9.844, c_0=133.325, gam=0.70, epsi=1.0, xCO2=4):
         self.F = F
         self.lbda = lbda
         self.c = c
